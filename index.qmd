@@ -33,6 +33,13 @@ Be sure to view that page to get an idea of the final product.
 Run the following code to import the necessary libraries:
 
 ```{python}
+import yaml
+
+print("YAML module is working")
+
+import nbclient
+
+print("nbclient is installed and working")
 import pandas as pd
 import numpy as np
 import plotly.express as px
