@@ -1,11 +1,15 @@
 ---
 title: "Workshop Exercise: Emissions Data - Table, Map, and Chart"
-author: Olugbenga Asaolu
-format: html
-embed-resources: true
+author: "Olugbenga Asaolu"
+format: 
+  html:
+    embed-resources: true
 execute:
-  echo: false
+  echo: false  # Hide the code blocks
+  eval: true   # Run the code but do not show output
 ---
+
+::: {.hidden}
 
 # Introduction
 
@@ -191,6 +195,9 @@ fig_map = px.choropleth(
 fig_map.show()
 ```
 
+# Setup
+...
+:::
 
 # Final Tabset
 
